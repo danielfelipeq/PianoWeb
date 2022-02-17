@@ -1,20 +1,20 @@
-const doNote = new Audio("/audio/040.wav");
-const doNoteB = new Audio("/audio/041.wav");
-const reNote = new Audio("/audio/042.wav");
-const reNoteB = new Audio("/audio/043.wav");
-const miNote = new Audio("/audio/044.wav");
-const faNote = new Audio("/audio/045.wav");
-const faNoteB = new Audio("/audio/046.wav");
-const solNote = new Audio("/audio/047.wav");
-const solNoteB = new Audio("/audio/048.wav");
-const laNote = new Audio("/audio/049.wav");
-const laNoteB = new Audio("/audio/050.wav");
-const siNote = new Audio("/audio/051.wav");
-const doNoteA = new Audio("/audio/052.wav");
-const doNoteAB = new Audio("/audio/053.wav");
-const reNoteA = new Audio("/audio/054.wav");
-const reNoteAB = new Audio("/audio/055.wav");
-const miNoteA = new Audio("/audio/056.wav");
+const doNote = new Audio("./audio/040.wav");
+const doNoteB = new Audio("./audio/041.wav");
+const reNote = new Audio("./audio/042.wav");
+const reNoteB = new Audio("./audio/043.wav");
+const miNote = new Audio("./audio/044.wav");
+const faNote = new Audio("./audio/045.wav");
+const faNoteB = new Audio("./audio/046.wav");
+const solNote = new Audio("./audio/047.wav");
+const solNoteB = new Audio("./audio/048.wav");
+const laNote = new Audio("./audio/049.wav");
+const laNoteB = new Audio("./audio/050.wav");
+const siNote = new Audio("./audio/051.wav");
+const doNoteA = new Audio("./audio/052.wav");
+const doNoteAB = new Audio("./audio/053.wav");
+const reNoteA = new Audio("./audio/054.wav");
+const reNoteAB = new Audio("./audio/055.wav");
+const miNoteA = new Audio("./audio/056.wav");
 
 const doSvg = document.querySelector("#do");
 const doSvgB = document.querySelector("#doB");
@@ -104,12 +104,12 @@ miSvgA.addEventListener("click", (event) => {
 });
 
 /* otros sonidos */
-const unoNote = new Audio("/audio/key-11.mp3");
-const dosNote = new Audio("/audio/key-12.mp3");
-const tresNote = new Audio("/audio/key-13.mp3");
-const cuatroNote = new Audio("/audio/key-14.mp3");
-const cincoNote = new Audio("/audio/key-15.mp3");
-const seisNote = new Audio("/audio/key-16.mp3");
+const unoNote = new Audio("./audio/key-11.mp3");
+const dosNote = new Audio("./audio/key-12.mp3");
+const tresNote = new Audio("./audio/key-13.mp3");
+const cuatroNote = new Audio("./audio/key-14.mp3");
+const cincoNote = new Audio("./audio/key-15.mp3");
+const seisNote = new Audio("./audio/key-16.mp3");
 
 const unoSvg = document.querySelector("#sound1");
 const dosSvg = document.querySelector("#sound2");
